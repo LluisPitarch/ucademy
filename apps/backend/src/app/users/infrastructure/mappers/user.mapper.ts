@@ -28,8 +28,7 @@ export class UserMapper implements UserMapperDomain {
             course._id,
             course.title,
             course.description,
-            course.percentCompleted,
-            course.inscriptionData
+            course.percentCompleted
           )
       )
     );

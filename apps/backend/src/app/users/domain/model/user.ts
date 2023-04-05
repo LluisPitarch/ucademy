@@ -10,7 +10,7 @@ export class User {
     private readonly username: string,
     private readonly email: string,
     private readonly phone: string,
-    private readonly inscriptionDate: Date,
+    private readonly inscriptionDate: string,
     private readonly courses: Course[] | []
   ) {}
 
@@ -38,7 +38,7 @@ export class User {
   public getPhone(): string {
     return this.phone;
   }
-  public getInscriptionDate(): Date {
+  public getInscriptionDate(): string {
     return this.inscriptionDate;
   }
   public getCourses(): Course[] | [] {

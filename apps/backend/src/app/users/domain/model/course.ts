@@ -3,8 +3,7 @@ export class Course {
     private readonly _id: string,
     private readonly title: string,
     private readonly description: string,
-    private readonly percentCompleted: number,
-    private readonly inscriptionData: Date
+    private readonly percentCompleted: number
   ) {}
 
   public getId(): string {
@@ -18,8 +17,5 @@ export class Course {
   }
   public getPercentCompleted(): number {
     return this.percentCompleted;
-  }
-  public getInscriptionData(): Date {
-    return this.inscriptionData;
   }
 }

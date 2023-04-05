@@ -10,7 +10,6 @@ export class CourseMapper implements CourseMapper {
     return {
       _id: course.getId(),
       description: course.getDescription(),
-      inscriptionData: course.getInscriptionData(),
       percentCompleted: course.getPercentCompleted(),
       title: course.getTitle(),
     };

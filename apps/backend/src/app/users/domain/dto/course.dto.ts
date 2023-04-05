@@ -3,5 +3,4 @@ export interface CourseDto {
   title: string;
   description: string;
   percentCompleted: number;
-  inscriptionData: Date;
 }
